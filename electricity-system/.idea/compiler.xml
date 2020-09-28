@@ -14,4 +14,13 @@
       </profile>
     </annotationProcessing>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="electricity-system-api" options="-parameters" />
+      <module name="electricity-system-common" options="-parameters" />
+      <module name="electricity-system-mapper" options="-parameters" />
+      <module name="electricity-system-pojo" options="-parameters" />
+      <module name="electricity-system-service" options="-parameters" />
+    </option>
+  </component>
 </project>
