@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc8a8aa3-6ca6-424d-b805-1aba1ef3e64a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../JVM/JVM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JVM/src/com/chencan/classloader/S01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JVM/src/com/chencan/jmm/S01_Volatile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JVM/src/com/chencan/runtimedataareaandinstructionset/S01_PlusPlus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../electricity-system/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javase/javase.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generatorConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chencan/my/mapper/MyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/chencan/mybatis/utils/GeneratorDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../permission/permission.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_data_redis/spring_data_redis.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/springboot.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/advancedfeatures/annotationinheritance/AnnotationInheritanceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/advancedfeatures/annotationinheritance/MyAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/advancedfeatures/genericandinheritance/GenericAndInheritanceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/advancedfeatures/innerclass/InnerClassApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/advancedfeatures/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/advancedfeatures/reflectionissue/ReflectionIssueApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/apiasyncsyncmode/APIAsyncSyncModeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/apiasyncsyncmode/AsyncUploadRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/apiasyncsyncmode/AsyncUploadResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/apiasyncsyncmode/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/apiasyncsyncmode/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/apiasyncsyncmode/SyncQueryUploadTaskRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/apiasyncsyncmode/SyncQueryUploadTaskResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/apiasyncsyncmode/SyncUploadRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/apiasyncsyncmode/SyncUploadResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/apiasyncsyncmode/UploadRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/apiasyncsyncmode/UploadResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/apiresponse/APIException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/apiresponse/APIResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/apiresponse/APIResponseAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/apiresponse/APIResponseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/apiresponse/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/apiresponse/NoAPIResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/apiresponse/OrderInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/apiresponse/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/apiversion/APIVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/apiversion/APIVersionHandlerMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/apiversion/APIVersoinController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/apiversion/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/headerapiversion/APIVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/headerapiversion/APIVersionCondition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/headerapiversion/APIVersionHandlerMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/headerapiversion/APIVersoinController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/headerapiversion/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/apidesign/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/asyncprocess/compensation/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/asyncprocess/compensation/CompensationJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/asyncprocess/compensation/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/asyncprocess/compensation/RabbitConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/asyncprocess/compensation/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/asyncprocess/compensation/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/asyncprocess/compensation/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/asyncprocess/deadletter/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/asyncprocess/deadletter/Consts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/asyncprocess/deadletter/DeadLetterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/asyncprocess/deadletter/MQListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/asyncprocess/deadletter/RabbitConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/asyncprocess/fanoutvswork/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/asyncprocess/fanoutvswork/FanoutQueueRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/asyncprocess/fanoutvswork/FanoutQueueWrong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/asyncprocess/fanoutvswork/WorkQueueRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/asyncprocess/fanoutvswork/WorkQueueWrong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/asyncprocess/rabbitmqdlx/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/asyncprocess/rabbitmqdlx/Consts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/asyncprocess/rabbitmqdlx/DeadLetterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/asyncprocess/rabbitmqdlx/MQListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/asyncprocess/rabbitmqdlx/RabbitConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/asyncprocess/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/cachedesign/cacheconcurrent/CacheConcurrentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/cachedesign/cacheconcurrent/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/cachedesign/cacheinvalid/CacheInvalidController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/cachedesign/cacheinvalid/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/cachedesign/cachepenetration/CachePenetrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/cachedesign/cachepenetration/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/cachedesign/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/clientdata/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/clientdata/trustclientcalculation/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/clientdata/trustclientcalculation/CreateOrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/clientdata/trustclientcalculation/Db.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/clientdata/trustclientcalculation/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/clientdata/trustclientcalculation/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/clientdata/trustclientcalculation/TrustClientCalculationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/clientdata/trustclientip/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/clientdata/trustclientip/TrustClientIpController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/clientdata/trustclientparameter/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/clientdata/trustclientparameter/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/clientdata/trustclientparameter/TrustClientParameterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/clientdata/trustclientuserid/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/clientdata/trustclientuserid/LoginRequired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/clientdata/trustclientuserid/LoginRequiredArgumentResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/clientdata/trustclientuserid/TrustClientUserIdController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/collection/aslist/AsListApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/collection/linkedlist/LinkedListApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/collection/listremove/ListRemoveApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/collection/listvsmap/ListVsMapApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/collection/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/collection/sublist/SubListApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/common/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/concurrenttool/ciavspia/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/concurrenttool/concurrenthashmapmisuse/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/concurrenttool/concurrenthashmapmisuse/ConcurrentHashMapMisuseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/concurrenttool/concurrenthashmapperformance/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/concurrenttool/concurrenthashmapperformance/ConcurrentHashMapPerformanceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/concurrenttool/copyonwritelistmisuse/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/concurrenttool/copyonwritelistmisuse/CopyOnWriteListMisuseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/concurrenttool/multiasynctasks/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/concurrenttool/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/concurrenttool/threadlocal/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/concurrenttool/threadlocal/Jietu20200710-113641.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/concurrenttool/threadlocal/ThreadLocalMemoryLeakController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/concurrenttool/threadlocal/ThreadLocalMisuseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/concurrenttool/threadlocal/tomcat.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/connectionpool/datasource/CommonMistakesApplicationBad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/connectionpool/datasource/CommonMistakesApplicationGood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/connectionpool/datasource/ImproperDataSourcePoolSizeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/connectionpool/datasource/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/connectionpool/datasource/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/connectionpool/datasource/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/connectionpool/datasource/bad.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/connectionpool/datasource/good.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/connectionpool/httpclient/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/connectionpool/httpclient/HttpClientNotReuseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/connectionpool/jedis/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/connectionpool/jedis/JedisMisreuseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/connectionpool/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/connectionpool/twotimeoutconfig/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/connectionpool/twotimeoutconfig/TwoTimeoutConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/connectionpool/twotimeoutconfig/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/connectionpool/twotimeoutconfig/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/connectionpool/twotimeoutconfig/hikari.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/dataandcode/codeinject/CodeInjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/dataandcode/codeinject/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/dataandcode/codeinject/ScriptingSandbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/dataandcode/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/dataandcode/sqlinject/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/dataandcode/sqlinject/SqlInjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/dataandcode/sqlinject/UserData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/dataandcode/sqlinject/UserDataMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/dataandcode/sqlinject/userdatamapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/dataandcode/xss/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/dataandcode/xss/SecurityAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/dataandcode/xss/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/dataandcode/xss/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/dataandcode/xss/XssController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/dataandcode/xss/XssFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/dataandcode/xss/XssJsonDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/dataandcode/xss/XssJsonSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/dataandcode/xss/XssRequestWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/datetime/calc/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/datetime/dateformat/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/datetime/mysql/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/datetime/mysql/TimeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/datetime/mysql/TimeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/datetime/mysql/test.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/datetime/newdate/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/datetime/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/datetime/timezone/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/equals/compareto/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/equals/compareto/CompareToController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/equals/differentclassloaderequals/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/equals/differentclassloaderequals/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/equals/equalitymethod/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/equals/equalitymethod/EqualityMethodController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/equals/intandstringequal/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/equals/intandstringequal/IntAndStringEqualController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/equals/intandstringequal/OrderQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/equals/lombokequals/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/equals/lombokequals/LombokEquealsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/equals/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/exception/finallyissue/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/exception/finallyissue/FinallyIssueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/exception/finallyissue/TestResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/exception/handleexception/APIResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/exception/handleexception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/exception/handleexception/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/exception/handleexception/HandleExceptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/exception/handleexception/RestControllerExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/exception/predefinedexception/BusinessException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/exception/predefinedexception/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/exception/predefinedexception/Exceptions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/exception/predefinedexception/PredefinedExceptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/exception/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/exception/threadpoolandexception/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/exception/threadpoolandexception/ThreadPoolAndExceptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/clientreadtimeout/ClientReadTimeoutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/clientreadtimeout/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/feignandribbontimout/AutoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/feignandribbontimout/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/feignandribbontimout/CommonMistakesApplicationDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/feignandribbontimout/CommonMistakesApplicationTimeoutByBoth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/feignandribbontimout/CommonMistakesApplicationTimeoutByFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/feignandribbontimout/CommonMistakesApplicationTimeoutByRibbon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/feignandribbontimout/FeignAndRibbonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/feignandribbontimout/default.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/feignandribbontimout/feign.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/feignandribbontimout/ribbon.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/feignpermethodtimeout/AutoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/feignpermethodtimeout/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/feignpermethodtimeout/CommonMistakesApplicationDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/feignpermethodtimeout/FeignPerMethodTimeoutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/feignpermethodtimeout/default.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/ribbonretry/AutoConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/ribbonretry/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/ribbonretry/CommonMistakesApplicationNoRetry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/ribbonretry/RibbonRetryIssueClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/ribbonretry/RibbonRetryIssueServerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/ribbonretry/default-ribbon.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/ribbonretry/feign/SmsClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/ribbonretry/noretry-ribbon.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/routelimit/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/httpinvoke/routelimit/RouteLimitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/io/badencodingissue/FileBadEncodingIssueApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/io/filebufferperformance/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/io/filestreamoperationneedclose/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/io/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/java8/CoolOptionalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/java8/CoolStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/java8/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/java8/ForEachOrderedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/java8/GenerateStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/java8/LambdaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/java8/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/java8/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/java8/ParallelTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/java8/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/java8/StreamDetailTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/java8/StreamTrace.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/java8/collector/MostPopularCollector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/java8/completablefuture/CompletableFutureTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/java8/completablefuture/Merchant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/java8/completablefuture/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/java8/completablefuture/Services.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/java8/completablefuture/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/java8/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/lock/deadlock/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/lock/deadlock/DeadLockController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/lock/lockgranularity/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/lock/lockgranularity/LockGranularityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/lock/lockscope/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/lock/lockscope/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/lock/lockscope/Interesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/lock/lockscope/LockScopeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/lock/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/logging/async/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/logging/async/LoggingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/logging/async/MySlowAppender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/logging/async/asyncwrong.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/logging/async/performance_async.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/logging/async/performance_sync.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/logging/duplicate/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/logging/duplicate/LoggingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/logging/duplicate/MultipleLevelsFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/logging/duplicate/filterright.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/logging/duplicate/filterwrong.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/logging/duplicate/loggerright1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/logging/duplicate/loggerright2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/logging/duplicate/loggerwrong.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/logging/duplicate/multiplelevelsfilter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/logging/placeholder/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/logging/placeholder/LoggingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/logging/placeholder/log4j2api_to_slf4j_to_logack.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/logging/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/nosqluse/esvsmyql/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/nosqluse/esvsmyql/News.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/nosqluse/esvsmyql/NewsESRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/nosqluse/esvsmyql/NewsMySQLRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/nosqluse/esvsmyql/PerformanceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/nosqluse/esvsmyql/es.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/nosqluse/influxdbvsmysql/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/nosqluse/influxdbvsmysql/PerformanceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/nosqluse/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/nosqluse/redisvsmysql/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/nosqluse/redisvsmysql/PerformanceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/nullvalue/avoidnullpointerexception/AvoidNullPointerExceptionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/nullvalue/avoidnullpointerexception/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/nullvalue/dbnull/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/nullvalue/dbnull/DbNullController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/nullvalue/dbnull/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/nullvalue/dbnull/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/nullvalue/pojonull/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/nullvalue/pojonull/POJONullController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/nullvalue/pojonull/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/nullvalue/pojonull/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/nullvalue/pojonull/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/nullvalue/pojonull/UserEntityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/nullvalue/pojonull/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/nullvalue/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/numeralcalculations/dangerousdouble/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/numeralcalculations/equals/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/numeralcalculations/overflowissue/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/numeralcalculations/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/numeralcalculations/rounding/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/oom/groovyoom/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/oom/groovyoom/GroovyOOMController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/oom/impropermaxheadersize/CommonMistakesApplicationBad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/oom/impropermaxheadersize/CommonMistakesApplicationGood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/oom/impropermaxheadersize/ImproperMaxHeaderSizeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/oom/impropermaxheadersize/bad.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/oom/impropermaxheadersize/good.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/oom/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/oom/usernameautocomplete/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/oom/usernameautocomplete/UserDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/oom/usernameautocomplete/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/oom/usernameautocomplete/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/oom/usernameautocomplete/UsernameAutoCompleteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/oom/weakhashmapoom/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/oom/weakhashmapoom/WeakHashMapOOMController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/productionready/health/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/productionready/health/ThreadPoolHealthIndicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/productionready/health/ThreadPoolProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/productionready/health/ThreadPoolsHealthContributor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/productionready/health/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/productionready/health/UserServiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/productionready/health/UserServiceHealthIndicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/productionready/health/actuator.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/productionready/info/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/productionready/info/TestEndpoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/productionready/info/ThreadPoolInfoContributor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/productionready/info/ThreadPoolProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/productionready/info/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/productionready/info/UserServiceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/productionready/info/actuator.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/productionready/metrics/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/productionready/metrics/Consts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/productionready/metrics/DeliverOrderHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/productionready/metrics/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/productionready/metrics/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/productionready/metrics/RabbitConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/productionready/metrics/influxdb.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/productionready/metrics/业务监控.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/productionready/metrics/应用监控.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/productionready/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/redundantcode/beancopy/BeanCopyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/redundantcode/beancopy/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/redundantcode/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/redundantcode/reflection/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/redundantcode/reflection/ReflectionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/redundantcode/reflection/right/AbstractAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/redundantcode/reflection/right/BankAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/redundantcode/reflection/right/BankAPIField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/redundantcode/reflection/right/BetterBankService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/redundantcode/reflection/right/CreateUserAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/redundantcode/reflection/right/PayAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/redundantcode/reflection/wrong/BankService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/redundantcode/templatemethod/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/redundantcode/templatemethod/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/redundantcode/templatemethod/Db.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/redundantcode/templatemethod/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/redundantcode/templatemethod/TemplateMethodController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/redundantcode/templatemethod/right/AbstractCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/redundantcode/templatemethod/right/InternalUserCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/redundantcode/templatemethod/right/NormalUserCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/redundantcode/templatemethod/right/VipUserCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/redundantcode/templatemethod/wrong/InternalUserCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/redundantcode/templatemethod/wrong/NormalUserCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/redundantcode/templatemethod/wrong/VipUserCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/securitylastdefense/preventduplicatepay/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/securitylastdefense/preventduplicatepay/PayChannel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/securitylastdefense/preventduplicatepay/PreventDuplicatePayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/securitylastdefense/preventsmshijack/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/securitylastdefense/preventsmshijack/PreventSMSHijackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/securitylastdefense/prventcouponfarming/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/securitylastdefense/prventcouponfarming/Coupon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/securitylastdefense/prventcouponfarming/CouponBatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/securitylastdefense/prventcouponfarming/CouponCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/securitylastdefense/prventcouponfarming/PreventCouponFarmingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/securitylastdefense/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/sensitivedata/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/sensitivedata/rsavsaes/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/sensitivedata/storeidcard/CipherData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/sensitivedata/storeidcard/CipherRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/sensitivedata/storeidcard/CipherResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/sensitivedata/storeidcard/CipherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/sensitivedata/storeidcard/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/sensitivedata/storeidcard/StoreIdCardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/sensitivedata/storeidcard/UserData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/sensitivedata/storeidcard/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/sensitivedata/storepassword/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/sensitivedata/storepassword/StorePasswordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/sensitivedata/storepassword/UserData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/sensitivedata/storepassword/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/serialization/deserializationconstructor/APIResultRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/serialization/deserializationconstructor/APIResultWrong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/serialization/deserializationconstructor/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/serialization/deserializationconstructor/DeserializationConstructorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/serialization/enumusedinapi/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/serialization/enumusedinapi/EnumDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/serialization/enumusedinapi/EnumUsedInAPIController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/serialization/enumusedinapi/StatusEnumClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/serialization/enumusedinapi/StatusEnumServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/serialization/enumusedinapi/jackson.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/serialization/jsonignoreproperties/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/serialization/jsonignoreproperties/JsonIgnorePropertiesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/serialization/jsonignoreproperties/UserRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/serialization/jsonignoreproperties/UserWrong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/serialization/jsonignoreproperties/jackson.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/serialization/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/serialization/redistemplate/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/serialization/redistemplate/RedisTemplateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/serialization/redistemplate/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/serialization/serialversionissue/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/serialization/serialversionissue/SerialVersionIssueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/serialization/serialversionissue/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart1/aopmetrics/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart1/aopmetrics/Metrics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart1/aopmetrics/MetricsAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart1/aopmetrics/MetricsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart1/aopmetrics/TestAspectWithOrder10.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart1/aopmetrics/TestAspectWithOrder20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart1/aopmetrics/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart1/aopmetrics/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart1/aopmetrics/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart1/aopmetrics/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart1/beansingletonandorder/BeanSingletonAndOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart1/beansingletonandorder/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart1/beansingletonandorder/SayBye.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart1/beansingletonandorder/SayHello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart1/beansingletonandorder/SayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart1/beansingletonandorder/TestA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart1/beansingletonandorder/TestB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart1/beansingletonandorder/TestC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart1/beansingletonandorder/TestD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart1/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart2/aopfeign/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart2/aopfeign/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart2/aopfeign/FeignAopConntroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart2/aopfeign/Wrong2Aspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart2/aopfeign/WrongAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart2/aopfeign/feign.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart2/aopfeign/feign/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart2/aopfeign/feign/ClientWithUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart2/custompropertysource/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart2/custompropertysource/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart2/propertysource/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/springpart2/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/sqlindex/coveringindex.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/sqlindex/indexcost.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/sqlindex/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/sqlindex/notuseindex.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/sqlindex/optimizer_trace.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/sqlindex/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/threadpool/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/threadpool/threadpoolmixuse/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/threadpool/threadpoolmixuse/ThreadPoolMixuseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/threadpool/threadpooloom/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/threadpool/threadpooloom/ThreadPoolOOMController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/threadpool/threadpoolreuse/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/threadpool/threadpoolreuse/ThreadPoolReuseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/transaction/nested/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/transaction/nested/NestedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/transaction/nested/SubUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/transaction/nested/UserData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/transaction/nested/UserDataMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/transaction/nested/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/transaction/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/transaction/transactionpropagation/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/transaction/transactionpropagation/SubUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/transaction/transactionpropagation/TransactionPropagationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/transaction/transactionpropagation/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/transaction/transactionpropagation/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/transaction/transactionpropagation/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/transaction/transactionproxyfailed/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/transaction/transactionproxyfailed/TransactionProxyFailedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/transaction/transactionproxyfailed/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/transaction/transactionproxyfailed/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/transaction/transactionproxyfailed/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/transaction/transactionrollbackfailed/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/transaction/transactionrollbackfailed/TransactionRollbackFailedController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/transaction/transactionrollbackfailed/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/transaction/transactionrollbackfailed/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/transaction/transactionrollbackfailed/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/troubleshootingtools/arthas/HighCPUApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/troubleshootingtools/arthas/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/troubleshootingtools/jdktool/CommonMistakesApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/troubleshootingtools/mat/FooService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/troubleshootingtools/mat/JMapApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/troubleshootingtools/mat/OOMApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/troubleshootingtools/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/java/org/geekbang/time/commonmistakes/troubleshootingtools/wireshark/BatchInsertApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/resources/news.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot/src/main/resources/templates/xss.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_apacheshiro/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_apacheshiro/springboot_apacheshiro.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_apacheshiro/src/main/java/com/chencan/springboot_apacheshiro/AuthRealm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_apacheshiro/src/main/java/com/chencan/springboot_apacheshiro/CredentialMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_apacheshiro/src/main/java/com/chencan/springboot_apacheshiro/DruidConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_apacheshiro/src/main/java/com/chencan/springboot_apacheshiro/ShiroConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_apacheshiro/src/main/java/com/chencan/springboot_apacheshiro/SpringbootApacheshiroApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_apacheshiro/src/main/java/com/chencan/springboot_apacheshiro/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_apacheshiro/src/main/java/com/chencan/springboot_apacheshiro/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_apacheshiro/src/main/java/com/chencan/springboot_apacheshiro/model/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_apacheshiro/src/main/java/com/chencan/springboot_apacheshiro/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_apacheshiro/src/main/java/com/chencan/springboot_apacheshiro/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_apacheshiro/src/main/java/com/chencan/springboot_apacheshiro/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_apacheshiro/src/main/java/com/chencan/springboot_apacheshiro/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_apacheshiro/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_apacheshiro/src/main/webapp/pages/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_apacheshiro/src/main/webapp/pages/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_apacheshiro/src/main/webapp/pages/unauthorized.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springsecurity/springsecurity.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springsecurity/src/main/java/com/chencan/springsecurity/MyPasswordEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springsecurity/src/main/java/com/chencan/springsecurity/MyUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springsecurity/src/main/java/com/chencan/springsecurity/SpringsecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JVM/src/com/chencan/bytecode/S01_ByteCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JVM/src/com/chencan/bytecode/S01_ByteCode.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\workspace\mybatis-generator\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iBfgLl73NARO87hEdcmz58FqOj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\mybatis-generator" />
+      <recent name="D:\workspace\mybatis-generator\src\main\java\com\chencan" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc8a8aa3-6ca6-424d-b805-1aba1ef3e64a" name="Default Changelist" comment="" />
+      <created>1601386015394</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601386015394</updated>
+      <workItem from="1601386018170" duration="1240000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="193" y="1" key="CommitChangelistDialog2" timestamp="1601387019296">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="193" y="1" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1601387019296" />
+    <state x="576" y="295" width="630" height="254" key="Github.ShareDialog" timestamp="1601386980029">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="576" y="295" width="630" height="254" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1601386980029" />
+  </component>
+</project>
